@@ -1,0 +1,65 @@
+/* Estilos generales */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estilos de las ofertas */
+  .offer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .offer h2 {
+    font-size: 24px;
+  }
+  
+  .offer .price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .offer .description {
+    margin-top: 10px;
+  }
+  
+  .offer .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .offer .button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
