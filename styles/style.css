@@ -1,0 +1,344 @@
+/* Estilos generales */
+*{
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.arreglo{
+  width: 640px;
+  margin: auto;
+}
+.webkit-scrollbar {
+  display: none;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121216;
+  margin: auto;;
+  text-align: center;
+  color:#ffffff;
+  overflow-x: hidden;
+}
+
+  /* Estilos del encabezado */
+#web_header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 115px;
+}
+#web_header .header_promo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  top: 19px;
+  bottom: 2px;
+  left: 52px;
+  width: 269.8px;
+  right: 172.92px;
+  height: 52px;
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+#web_header .header_promo:hover{
+  cursor: pointer;
+}
+#web_header div{
+  display: inline-block;
+}
+#web_header nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 30%;
+  border-radius: 200px;
+  border: 1px solid #ffffff;
+
+}
+#web_header nav:hover{
+  cursor: pointer;
+}
+#web_header .header_deezer_logo{
+  width: 10%;
+  margin-right: 12%;
+}
+#web_header .header_deezer_logo:hover{
+  cursor: pointer;
+}
+.header_promo .tigo_logo{
+  width: 10%;
+}
+
+ /* Estilos de las ofertas */
+
+ #first_section{
+  max-width: 100%;
+  display: block;
+}
+.cards_container{
+  padding-top: 5px;
+  max-width: 600px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+
+  margin: auto;
+  padding: 0 20px;
+}
+#first_section h1{
+  color: #ffffff;
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+#first_section h2{
+  color: #ffffff;
+}
+.centro.imagen{
+  height: 100px;
+  width: 100px;
+}
+.card{
+  width: 650px;
+  border-radius: 20px;
+}
+.card1{
+  box-sizing: border-box;
+  background:  linear-gradient(rgb(32, 33, 34), rgb(58, 59, 71) 55.56%);
+  height: 320px;
+}
+.card_text{
+  color: #ffffff;
+}
+.card_title{
+  padding-top: 20px;
+  font-size: 32px;
+  margin-bottom: 24px;
+  font-weight: 700;
+  text-align: center;   
+}
+.card_content a{
+  text-decoration: none;
+  align-items: center;
+  width: 600px;
+  height: 418.5px;
+}
+.card_button{
+  width: 60%;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 20px 50px;
+  margin: auto;
+  text-align: center;
+}
+.card_button:hover{
+  cursor: pointer;
+  background-color: #ffffff;
+  color: black;
+}
+.more_info{
+  
+  padding-bottom: 20px;
+  color: #ffffff7e;
+}
+.card_content .price_month{
+  margin-top: -30px;
+}
+.icon{
+  display: inline-block;
+  flex: auto;
+  width: 15px;
+  height: 15px;
+  line-height: 1;
+  position: relative;
+}
+
+.card2{
+  background-image: linear-gradient(53.13deg, rgb(220, 76, 17) 10.71%, rgb(254, 171, 46));
+  height: 500px;
+}
+.month_free{
+  font-size: 32px;
+  color: #ffffff;
+}
+.more_info_2{
+  color: #ffffff7e;
+}
+.card3{
+  background-image: linear-gradient(rgb(32, 33, 34), rgb(58, 59, 71) 55.56%);
+  height: 174px;
+}
+.card_content img{
+  
+  width: 5%;
+}
+.card_3_button{
+  margin-top: 10px;
+}
+
+.card4{
+  height: 460PX;
+  background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);;
+}
+
+.promo_button{
+  display: flex;
+  align-items: center;
+  width: 640px;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  position: relative;
+}
+.promo_button:hover{
+  cursor: pointer;
+}
+
+.promo_button > p{
+  top: 30%;
+}
+.promo_button p{
+  display: inline-block;
+}
+.promo_button .discount_text{
+  height: 35px;
+  width: 35px;
+  color: #ffffff;
+  position: absolute;
+  left: 90%;
+  top: 15%;
+}
+
+.discount_text .discount_percentage{
+  padding: 5px 10px;
+  background:  linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
+  border-radius: 10px;
+  margin: auto;
+}
+.a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 115px;
+  position: relative;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 12px;
+  line-height: 1.3333;
+}
+.textoinfo{
+  margin: 0;
+  padding: 85px 0 90px;
+  text-align: center;
+  color: rgb(163, 163, 163);
+  margin-bottom: 200px;
+  margin-top: 100px;
+  font-size: 20px;
+  line-height: 25px;
+}
+p{
+  color: #ffffff;
+}
+
+/* Estilos para imagenes */
+.imageen{
+  height:60px;
+  width:163px;
+}
+.imagenn{
+  height:35px;
+  width:134px;
+  margin-right: 10px;
+}
+.cellap{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos de footer*/
+.barrass{
+  display: flex;
+  text-align: left;
+  line-height: 30px;
+  
+}
+.barrass ul li{
+  list-style: none;
+  color: #a6a6a6;
+  
+}
+.barrass ul{
+  
+  font-size: 14px;
+}
+footer{
+  max-width: 100%;
+}
+.conta{
+  margin-bottom: 20px;
+
+}
+.barrass ul li .conta{
+  color: #ffffff;
+}
+.foot img{
+  
+  width:154px;
+  margin-right: 10px;
+}
+.foot {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.redess img{
+  width:20px;
+}
+.redess{
+  justify-content: space-around;
+  width: 150px;
+  display: flex;
+  margin-left:40px ;
+}
+.latam{
+  text-align: right;
+  width: 100%;
+  justify-content: flex-end;
+  margin-left: -40px;
+  
+}
+
+.lang-label{
+  color: #d1d1d7;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.lang-select{
+  border: 0;
+  cursor: pointer;
+  font-size: 11px;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
