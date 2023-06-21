@@ -9,6 +9,7 @@ body{
   background-color: #121216;
 }
 
+/* Estilos del encabezado */
 nav{
   position: relative;
   height: 90px;
@@ -17,7 +18,6 @@ nav{
   align-items: center;
   padding: 0 80px;
 }
-
 nav::before{
   content: "";
   width: 80vw;
@@ -31,14 +31,12 @@ nav::before{
   margin-top: 0;
   z-index: -1;
 }
-
 nav a{
   text-decoration: none;
   color: white;
   font-size: 12px;
   font-weight: 600;
 }
-
 .top_promo{
   position: absolute;
   top: 20px;
@@ -52,16 +50,11 @@ nav a{
   position: absolute;
   width: 20px;
   height: 20px;
-  background: url(img/tigo.png) no-repeat center;
+  background: url(./img/tigo.png) no-repeat center;
   background-size: 100%;
   inset: 0;
   margin: auto;
   margin-bottom: 20px;  
-}
-.tigo_logo{
-  margin: auto;
-  padding-top: 10px;
-  padding-left: 117px;
 }
 .top_logo{
   margin: auto;
@@ -75,62 +68,7 @@ nav a{
   border: white solid 1px;  
 }
 
-  /* Estilos del encabezado *//*
-#web_header{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: auto;
-  width: 100%;
-  height: 115px;
-}
-#web_header .header_promo{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-  top: 19px;
-  bottom: 2px;
-  left: 52px;
-  width: 269.8px;
-  right: 172.92px;
-  height: 52px;
-  padding: 20px 30px 20px 30px;
-  border-radius: 10px;
-  border: 1px solid #ffffff;
-}
-#web_header .header_promo:hover{
-  cursor: pointer;
-}
-#web_header div{
-  display: inline-block;
-}
-#web_header nav{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 10%;
-  height: 30%;
-  border-radius: 200px;
-  border: 1px solid #ffffff;
-
-}
-#web_header nav:hover{
-  cursor: pointer;
-}
-#web_header .header_deezer_logo{
-  width: 10%;
-  margin-right: 12%;
-}
-#web_header .header_deezer_logo:hover{
-  cursor: pointer;
-}
-.header_promo .tigo_logo{
-  width: 10%;
-}
-  *//* Estilos de las ofertas */ 
-
+/* Estilos de las ofertas */ 
 .first_section{
   color: white;
   display: flex;
@@ -142,16 +80,13 @@ nav a{
 .first_section h1{
   margin: 70px 0 40px;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 700px;
   text-align: center;
 }
 .first_section h2{
   color: #ffffff;
 }
-.centro.imagen{
-  height: 100px;
-  width: 100px;
-}
+
 .card{
   width: 600px;
     border-radius: 20px;
@@ -163,36 +98,33 @@ nav a{
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
-    margin-top: 50px;
+    margin: 20px;
 }
 .card1{
   background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
-  margin-top: 0;
 }
 .card2{
   background-image: linear-gradient(53.13deg, rgb(220, 76, 17) 10.71%, rgb(254, 171, 46));
-  margin-top: 0;
 }
 .card3{
   background-image: linear-gradient(rgb(32, 33, 34), rgb(58, 59, 71) 55.56%);
-  margin-top: 0;
 }
-.card4{
-  margin-top: 0;
-  background:  linear-gradient(rgb(32, 33, 34), rgb(58, 59, 71) 55.56%);
-}
-
 .card_text{
   color: #ffffff;
   font-size: 1.1rem;
   font-weight: 300;
+  margin-block-end: 10px;
 }
 .card_title{
   padding-top: 20px;
-  font-size: 32px;
+  font-size: 38px;
   margin-bottom: 24px;
-  font-weight: 700;
   text-align: center;   
+  font-weight: normal;
+}
+.card_title b{
+  font-weight: 600;
+  font-family: 'Mabry Pro', sans-serif; 
 }
 .card_content a{
   text-decoration: none;
@@ -206,18 +138,23 @@ nav a{
   background-color: #121216;
   border-radius: 30px;
   padding: 20px 50px;
+  font-size: .9rem;
+  font-weight: 600;
   margin: auto;
+  text-decoration: none;
   text-align: center;
   filter: drop-shadow(0 10px 16px rgba(0,0,0,.3)) drop-shadow(0 16px 32px rgba(0,0,0,.1));
 }
 .card_button:hover{
   cursor: pointer;
   background-color: #ffffff;
-  color: black;
+  color: #121216;
 }
 
-.more_info{
-  
+.card_content .more_info{
+  font-size: 14px;
+  text-decoration-line: underline;
+  text-align: center;
   padding-bottom: 20px;
   color: #ffffff7e;
 }
@@ -227,7 +164,7 @@ nav a{
 .icon{
   display: inline-block;
   flex: auto;
-
+  margin-left: 4px;
   line-height: 1;
   position: absolute;
 }
@@ -267,12 +204,14 @@ nav a{
 .promo_button{
   display: flex;
   align-items: center;
+  text-align: center;
   width: 600px;
   padding: 10px;
   color: #ffffff;
   border-radius: 20px;
-  border: 1px solid #ffffff;
+  border: 1px solid #92929D;
   position: relative;
+  margin: 10px;
 }
 .promo_button:hover{
   cursor: pointer;
@@ -280,13 +219,20 @@ nav a{
 
 .promo_button > p{
   top: 30%;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
 }
 .promo_button p{
+  font-weight: bold;
   display: inline-block;
+  text-align: center;
+  align-items: center;
 }
 .promo_button .discount_text{
   height: 35px;
   width: 35px;
+  font-size: 14px;
   color: #ffffff;
   position: absolute;
   left: 90%;
@@ -296,14 +242,14 @@ nav a{
 .discount_text .discount_percentage{
   padding: 5px 10px;
   background:  linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
-  border-radius: 10px;
+  border-radius: 20px;
   margin: auto;
 }
 
 .discount_text .discount_percentage2{
   padding: 5px 10px;
   background:  linear-gradient(53.13deg, rgb(220, 76, 17) 10.71%, rgb(254, 171, 46));
-  border-radius: 10px;
+  border-radius: 20px;
   margin: auto;
 }
 .a{
@@ -326,6 +272,7 @@ nav a{
   line-height: 25px;
   margin-bottom: 96px;
   text-align: center;
+  margin-block-end: 0;
 }
 p{
   color: #ffffff;
@@ -343,11 +290,13 @@ footer{
   flex-direction: row;
   justify-content: center;
   padding-bottom: 50px;
+
 }
 .cellap img {
   height: 45px;
   width: 135px;
   cursor: pointer;
+  justify-content: space-between;
 }
 .tarimg img{
   height: 264px;
@@ -383,7 +332,15 @@ footer{
   margin-bottom: 10px;
   cursor: pointer;
 }
-
+.footer-line{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 120px;
+  padding: 80px 0px 0px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 .redess{
   justify-content: space-around;
   width: 150px;
