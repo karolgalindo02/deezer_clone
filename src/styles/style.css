@@ -43,19 +43,26 @@ nav a{
   left: 50px;
   border: 1px solid rgba(255, 255, 255, .4);
   border-radius: 10px;
-  padding: 15px 30px 55px;
+  padding: 15px 30px 20px;
 }
 .top_promo::before{
   content: "";
   position: absolute;
   width: 20px;
   height: 20px;
-  background: url(./img/tigo.png) no-repeat center;
-  background-size: 100%;
   inset: 0;
   margin: auto;
   margin-bottom: 20px;  
 }
+
+.tigo_logo{
+  margin: auto;
+  margin-top: 10px;
+  align-items: center;
+  width: 20px;
+  display: block;
+}
+
 .top_logo{
   margin: auto;
   padding-top: 10px;
@@ -152,7 +159,6 @@ nav a{
 }
 
 .card_content .more_info{
-  font-size: 14px;
   text-decoration-line: underline;
   text-align: center;
   padding-bottom: 20px;
@@ -193,17 +199,14 @@ nav a{
   color: #ffffff7e;
 }
 
-.card_content img{
-  
-  width: 5%;
-}
 .card_3_button{
   margin-top: 10px;
 }
 
 .promo_button{
   display: flex;
-  align-items: center;
+  margin: auto;
+  text-decoration: none;
   text-align: center;
   width: 600px;
   padding: 10px;
@@ -220,12 +223,15 @@ nav a{
 .promo_button > p{
   top: 30%;
   font-size: 14px;
+  text-decoration: none;
   text-align: center;
   margin: 0;
 }
 .promo_button p{
   font-weight: bold;
   display: inline-block;
+  margin: auto;
+  text-decoration: none;
   text-align: center;
   align-items: center;
 }
