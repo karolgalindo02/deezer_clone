@@ -187,6 +187,7 @@ nav a{
   cursor: pointer;
   background-color: #ffffff;
   color: #121216;
+
 }
 
 .card_content .more_info{
@@ -202,6 +203,14 @@ nav a{
   padding-bottom: 20px;
   color: #ffffff;
 }
+
+.card_content .more_info2:hover{
+  text-decoration-line: underline;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
 .card_content .price_month{
   margin-top: -30px;
 }
