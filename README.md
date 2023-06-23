@@ -33,8 +33,8 @@ Visual del footer:
 
 ![visual-footer](https://github.com/karolgalindo02/deezer_clone/assets/122057880/60ef0998-d360-4ccf-bf3b-36b46fc820b7)
 
-Dando como resultado la página terminada de acuerdo al diseño entregado ╰⁠(⁠ ⁠･⁠ ⁠ᗜ⁠ ⁠･⁠ ⁠)⁠➝
-<a href="https://deezer-clone-es.netlify.app/">Despliegue de la página</a>
+Dando como resultado la página terminada de acuerdo al diseño entregado <br />
+╰⁠(⁠ ⁠･⁠ ⁠ᗜ⁠ ⁠･⁠ ⁠)⁠➝<a href="https://deezer-clone-es.netlify.app/"> Despliegue de la página</a>
 
 ![photo1687493476](https://github.com/karolgalindo02/deezer_clone/assets/122057880/50dd0dda-a3ea-4892-88f5-74ee6f59e551)
 
